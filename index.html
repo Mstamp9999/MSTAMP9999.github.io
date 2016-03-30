@@ -4,16 +4,56 @@
 
   </head>
   <style>
-  body {background-color:#ddd;}
-  p {background-color:red; margin-top:150px; margin-left:auto; margin-right:auto; text-align:center; padding:20px;}
-  </style>
+  body {
+      background-color:black;
+      }
+      
+  p {
+      background-color:red;
+      margin-top:100px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+      padding:20px;
+      }
+      
+  img {
+      height:500px;
+      
+      }
+  
+   #demo {
+        background-color:orange;   
+      }      
+  
+     #name {
+        background-color:blue;   
+      }      
+      
+    </style>
   <body>
+      <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRReZUhXGII0Ez_FVzK0N3WcQoIFktNrBMLVrFMF8c4fwkss-Ws"\></center>
     <p>
     Hello World
     <br>
-    This is Martins page
+    This page belongs to Martin Stamper
     <br>
     Pokemon forever
+    <br>
+    Charizard rules
     </p>
+      
+    <p id="name">Martin Stamper</p>
+      
+      <script>
+document.getElementById("name").innerHTML = Name();
+</script>
+      
+      
+    <p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
   </body>
 </html>
