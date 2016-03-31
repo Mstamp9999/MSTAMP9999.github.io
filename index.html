@@ -21,41 +21,56 @@
       height:500px;
       padding:50px;
       }
-  
-   #demo {
-        background-color:orange;   
-      }      
-  
-     #name {
+    
+  #name {
         background-color:blue;   
-      }      
+      }
       
-    </style>
+  #form {
+          background-color:orange;
+      }
+  
+      
+</style>
   <body>
+      
       <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRReZUhXGII0Ez_FVzK0N3WcQoIFktNrBMLVrFMF8c4fwkss-Ws"\></center>
+    <p id="form">  
+  First name: <input id="fname" type="text" name="fname"><br>
+        <br>
+      <button onclick="load()">Click me</button>
+    </p>
+        
+<script>
+    load()
+  
+          
+  function myFunction(){
+        document.getElementById('name').innerHTML = document.getElementById('fname').value
+    }
+       
+  function load() {
+          document.getElementById("demo").innerHTML = Date();
+          document.getElementById("name").innerHTML = "Martin";
+          document.getElementById("number").innerHTML = 5 + 4;
+          }
+</script>
+        <p id="name"></p> 
+    <div>
     <p>
     Hello World
     <br>
     This page belongs to Martin Stamper
     <br>
-    The picture I don't own it I don't claim it as my own either
+    The picture I don't own I don't claim it as my own either
     <br>
     Pokemon forever
     <br>
     Charizard rules
     </p>
-      
+    </div>  
     <p id="name">Martin Stamper</p>
       
-      <script>
-document.getElementById("name").innerHTML = Name();
-</script>
-      
-      
     <p id="demo"></p>
-
-<script>
-document.getElementById("demo").innerHTML = Date();
-</script>
   </body>
 </html>
