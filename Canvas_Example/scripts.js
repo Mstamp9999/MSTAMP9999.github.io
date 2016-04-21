@@ -33,7 +33,6 @@ function left(){
 
 function getKeyPress(event){
     var x = event.keyCode;
-    alert("a key has been pressed");
     switch(x){
         case 38:
             up();
