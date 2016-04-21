@@ -1,0 +1,10 @@
+#logo {
+    color: darkred; 
+    border-style: ridge;
+    border-width: 9px;
+    border-color: darkgray;
+}
+
+body{
+    background-color: orange;
+}

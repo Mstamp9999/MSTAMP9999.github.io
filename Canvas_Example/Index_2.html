@@ -1,0 +1,31 @@
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<div id = "logo">Martin's Index</div>
+
+<!---w = 119, a = 97, s =115, d = 100 up = 38, down = 40, right = 39 left = 37----->
+
+<body onkeydown="getKeyPress(event)">
+
+<p>Image to use:</p>
+<img id="Torterra" src="torterra.jpg" alt="Torterra" width="150" height="150">
+
+<p>Canvas to fill:</p>
+<canvas id="myCanvas" width="400" height="400"
+style="border:1px solid #d3d3d3;">
+</canvas>
+
+<p>
+<button onclick="myCanvas()">Start</button>
+<br>
+<br>
+<button onclick="up()">up</button>
+<button onclick="down()">down</button>
+<button onclick="right()">right</button>
+<button onclick="left()">left</button>
+</p>
+
+</body>
+
+<script src="scripts.js"></script>
