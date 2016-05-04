@@ -1,17 +1,11 @@
-var x = "";
-var y = "";
-var z = x * y;
 
-var x = "";
-var y = "";
-var z = x - y;
+var displayVal = "";
 
-var x = "";
-var y = "";
-var z = x * y;
+function display(G) {
+ displayVal = displayVal + G;
+  $("#result").val(displayVal);   
+}
 
-var x = "";
-var y = "";
-var z = x / y;
-
-
+function calculate() {
+ $("#result").val(eval(displayVal));
+}
