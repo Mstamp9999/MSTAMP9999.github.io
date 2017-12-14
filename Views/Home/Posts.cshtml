@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Posts";
+}
+
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<p>Got something you made yourself and want to show it off, post it here.</p>
+
+<p><input type="Text" /> <input type="submit" value="Submit" /></p>
+
+<p>If you want to see more posts about a certain brand of lego models here is a list of the brands of Legos:</p>
+    <ul>
+        <li>@Html.ActionLink("Marvel", "Marvel")</li>
+        <li>@Html.ActionLink("DC", "DC")</li>
+        <li>@Html.ActionLink("Ninjago", "Ninjago")</li>
+        <li>@Html.ActionLink("Star Wars", "StarWars")</li>
+        <li>@Html.ActionLink("Nexo Knights", "NexoKnights")</li>
+        <li>@Html.ActionLink("Pirates of the Caribbean", "PiratesOfTheCaribbean")</li>
+        <li>@Html.ActionLink("Spongebob", "Spongebob")</li>
+        <li>@Html.ActionLink("Lego City", "LegoCity")</li>
+        <li>@Html.ActionLink("The Lego Movie", "TheLegoMovie")</li>
+        <li>@Html.ActionLink("Lego Chima", "LegoChima")</li>
+        <li>@Html.ActionLink("Disney", "Disney")</li>
+    </ul>

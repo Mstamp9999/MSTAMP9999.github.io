@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Legos</h1>
+    <p class="lead"></p>
+    <p>Welcome to the Blog of Legos</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>The Lego Site</h2>
+        <p>You can learn more about legos at the official <a class="btn btn-default" href="https://www.lego.com/en-us/">Lego Site</a></p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>The Lego Blog</h2>
+        <p>Here you can see all the types of lego models and custom model sets that people have made</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Most Recent Posts</h2>
+        <p>Go to @Html.ActionLink("Posts", "Posts") to see more about it.</p>
+    </div>
+</div>
